@@ -5,7 +5,7 @@ Código da dissertação de mestrado "Melhoria da Convergência do Método ICA-M
 Fabio Louvatti do Carmo
 email: fabincarmo@gmail.com
 
-Sistema Operacional: Debian Wheezy
+Sistema operacional usado: Debian Wheezy
 
 Segue os pacotes que usei e suas versões.
 Python 2.7
@@ -21,6 +21,6 @@ TREINO
 Execute 'python main.py' no terminal para cada treino que desejar.
 
 TESTE
-Rode o Makefile em ./limitagradiente para compilar o código em Fortran.
-Execute 'python main.py' no terminal.
+Rode o Makefile em ./limitagradiente para compilar o código em Fortran. (apenas uma vez)
+Execute 'python main.py' no terminal para cada teste.
 
