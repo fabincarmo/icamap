@@ -16,7 +16,6 @@ class icamapgen:
         self.lamb = lamb
         self.ruido = ruido
         self.limg = limg
-        self.jang = 64 # tamanho da janela do gradiente para cálculo da média
 
     def gen(self,sinal):
         T = size(sinal)
