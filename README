@@ -19,8 +19,9 @@ f2py 2
 TREINO
 - Execute 'python main.py' no terminal para cada treino que desejar.
 
-TESTE
-- Configure o tamanho do frame que irá utilizar no arquivo ./limitagradiente/dggm.f95. Por padrão, o valor é 64.
-- Rode o Makefile em ./limitagradiente para compilar o código em Fortran. (apenas uma vez)
+TESTE COM LIMITAÇÃO DO GRADIENTE E APROXIMAÇÃO POR SPLINE
+- Configure o tamanho do frame que irá utilizar no arquivo dggm.f95. Por padrão, o valor é 64.
+- Rode o Makefile para compilar o código em Fortran. (apenas uma vez)
 - Execute 'python main.py' no terminal para cada teste.
+
 
