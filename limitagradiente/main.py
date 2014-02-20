@@ -17,17 +17,17 @@ from tkFileDialog import askopenfilename
 
 os.system('clear')
 
-N = '64'#float(input('Tamanho do frame [64]:'))
-genero = 'homem'#raw_input('Gênero [homem/mulher]:')
-#Tk().withdraw()
-s_voz = 'sx351.flac'#askopenfilename().encode('utf-8')
-ruido = 'cafeter'#raw_input('Tipo de ruído: ')
-#Tk().withdraw()
-s_ruido = 'cafeter.flac'#askopenfilename().encode('utf-8')
-its_ = 2#float(input('Número máximo de iterações: '))
-lamb_ = .03#float(input('Valor do passo: '))
-limg = 400#float(input('Limitação do gradiente: '))
-snrini_ = 0#float(input('SNR inicial: '))
+N = float(input('Tamanho do frame [64]:'))
+genero = raw_input('Gênero [homem/mulher]:')
+Tk().withdraw()
+s_voz = askopenfilename().encode('utf-8')
+ruido = raw_input('Tipo de ruído: ')
+Tk().withdraw()
+s_ruido = askopenfilename().encode('utf-8')
+its_ = float(input('Número máximo de iterações: '))
+lamb_ = float(input('Valor do passo: '))
+limg = float(input('Limitação do gradiente: '))
+snrini_ = float(input('SNR inicial: '))
 
 # cria pasta onde serão salvos os resultados
 pasta = genero+'_'+s_voz.split('/')[-1:][0]+'_'+ruido+'_'+s_ruido.split('/')[-1:][0]
