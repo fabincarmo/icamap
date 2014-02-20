@@ -9,7 +9,6 @@ Sistema operacional usado: Debian Wheezy
 
 Segue os pacotes que usei e suas versões.
 Python 2.7
-Numpy 1.6.2
 Scipy 0.10.1
 Matplotlib 1.1.1
 MDP 3.3
@@ -18,9 +17,10 @@ scikits.audiolab 0.11.0
 f2py 2
 
 TREINO
-Execute 'python main.py' no terminal para cada treino que desejar.
+- Execute 'python main.py' no terminal para cada treino que desejar.
 
 TESTE
-Rode o Makefile em ./limitagradiente para compilar o código em Fortran. (apenas uma vez)
-Execute 'python main.py' no terminal para cada teste.
+- Configure o tamanho do frame que irá utilizar no arquivo ./limitagradiente/dggm.f95. Por padrão, o valor é 64.
+- Rode o Makefile em ./limitagradiente para compilar o código em Fortran. (apenas uma vez)
+- Execute 'python main.py' no terminal para cada teste.
 
