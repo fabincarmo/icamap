@@ -16,11 +16,13 @@ python-tk 2.7.3
 scikits.audiolab 0.11.0
 f2py 2
 
-TREINO
-- Execute 'python main.py' no terminal para cada treino que desejar.
 
-TESTE COM LIMITAÇÃO DO GRADIENTE E APROXIMAÇÃO POR SPLINE
-- Configure o tamanho do frame que irá utilizar no arquivo dggm.f95. Por padrão, o valor é 64.
+
+Pasta ./treino/
+- Execute 'python main.py' no terminal para cada treino que desejar. Utilize áudio no formato FLAC.
+
+Pastas ./limitagradiente/ e ./spline/
+- Configure o valor N (tamanho do frame) que irá utilizar no arquivo dggm.f95. Por padrão, o valor é 64. Utilize o mesmo valor utilizado no treino e utilize o mesmo nos testes.
 - Rode o Makefile para compilar o código em Fortran. (apenas uma vez)
 - Execute 'python main.py' no terminal para cada teste.
 
