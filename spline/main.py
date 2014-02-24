@@ -41,7 +41,7 @@ sys.stdout.flush()
 
 # lê os dados treinados
 Wx,betax = ler_dados('../treino/'+genero+'/'+genero+'.mat')
-if s_ruido=='gaussiano':
+if ruido=='gaussiano':
 	Wv=Wx.copy()
 	betav=zeros(N)
 else:
@@ -56,7 +56,7 @@ sys.stdout.flush()
 
 # carrega os arquivos de áudio
 x = carregar_audio(s_voz)
-if s_ruido=='gaussiano':
+if ruido=='gaussiano':
     v = randn(x.size)	
 else:
     v = carregar_audio(s_ruido)
